@@ -1,5 +1,5 @@
-import { pipe, tap } from "ramda";
-import { readInput } from "../helpers.mjs";
+import { pipe, tap } from "ramda"
+import { readInput } from "../helpers.mjs"
 
 const main = pipe(
   readInput,
